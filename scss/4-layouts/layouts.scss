@@ -1,0 +1,10 @@
+@include for-tablet-landscape-up {
+  .l-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .l-col {
+    width: 100%;
+  }
+}

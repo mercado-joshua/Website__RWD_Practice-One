@@ -1,0 +1,25 @@
+@charset 'utf-8';
+
+/*
+  Theme Name: demo-1
+  Author: Joshua Mercado
+  Description: My First Theme made with WordPress.
+  Version: 1.0
+  License: GNU General Public License v2 or later
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
+  Text Domain: demo-theme-1
+  @package demo-theme-1
+*/
+
+@import './1-abstracts/globals';
+@import './2-vendor/globals';
+@import './3-base/globals';
+@import './4-layouts/globals';
+@import './5-themes/globals';
+@import './6-pages/globals';
+@import './7-scope/globals';
+@import './8-objects/globals';
+@import './9-components/globals';
+@import './10-utilities/globals';
+@import './11-hack/globals';
+@import './12-author/globals';

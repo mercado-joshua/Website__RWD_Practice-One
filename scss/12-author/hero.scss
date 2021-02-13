@@ -1,0 +1,36 @@
+.hero-left {
+  &__title {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1em 0;
+
+    @include for-tablet-landscape-up {
+      text-align: left;
+    }
+  }
+
+  &__img {
+    padding: 3em 0;
+    margin: 0 auto;
+  }
+}
+
+.hero_right {
+  background: #003188;
+  color: #fff;
+  padding: .5em 2em;
+
+  &__first-paragraph span {
+    display: none;
+  }
+
+  &__highlight-paragraph {
+    padding: 2em 0;
+    font-size: 1.7rem;
+    font-weight: bold;
+
+    p {
+      margin: 0;
+    }
+  }
+}

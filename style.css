@@ -1,0 +1,94 @@
+/*
+  Theme Name: demo-1
+  Author: Joshua Mercado
+  Description: My First Theme made with WordPress.
+  Version: 1.0
+  License: GNU General Public License v2 or later
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
+  Text Domain: demo-theme-1
+  @package demo-theme-1
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 900px) {
+  .l-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .l-col {
+    width: 100%;
+  }
+}
+.o-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hero-left__title {
+  font-size: 1rem;
+  text-align: center;
+  padding: 1em 0;
+}
+@media (min-width: 900px) {
+  .hero-left__title {
+    text-align: left;
+  }
+}
+.hero-left__img {
+  padding: 3em 0;
+  margin: 0 auto;
+}
+
+.hero_right {
+  background: #003188;
+  color: #fff;
+  padding: 0.5em 2em;
+}
+.hero_right__first-paragraph span {
+  display: none;
+}
+.hero_right__highlight-paragraph {
+  padding: 2em 0;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.hero_right__highlight-paragraph p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
